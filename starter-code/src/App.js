@@ -8,6 +8,8 @@ import Rating from "./Rating";
 import DriverCard from "./DriverCard";
 import LikeButton from "./LikeButton";
 import ClickablePicture from "./ClickablePicture";
+import NumbersTable from "./NumbersTable";
+import Facebook from "./Facebook";
 
 class App extends Component {
   render() {
@@ -102,6 +104,12 @@ class App extends Component {
 
         <h1>ClickablePicture</h1>
         <ClickablePicture />
+
+        <h1>NumbersTable</h1>
+        <NumbersTable limit={12} />
+
+        <h1>Facebook</h1>
+        <Facebook />
       </div>
     );
   }
